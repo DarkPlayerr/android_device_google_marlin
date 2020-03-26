@@ -514,4 +514,6 @@
 <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
 <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
 
+<!-- Whether the device supports Smart Pixels -->
+<bool name="config_enableSmartPixels">true</bool>
 </resources>
