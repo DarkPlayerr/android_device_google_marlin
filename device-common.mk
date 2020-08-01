@@ -32,6 +32,17 @@ PRODUCT_SHIPPING_API_LEVEL := 25
 # Setting vendor SPL
 VENDOR_SECURITY_PATCH := "2019-10-06"
 
+# VoLTE
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.dbg.ims_volte_enable=1 \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.radio.rat_on=combine \
+    persist.radio.data_ltd_sys_ind=1 \
+    persist.radio.data_con_rprt=1 \
+    persist.radio.calls.on.ims=1
+
 PRODUCT_SOONG_NAMESPACES += \
     device/google/marlin \
     vendor/google/camera \
