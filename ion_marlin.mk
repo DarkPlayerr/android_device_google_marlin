@@ -5,6 +5,7 @@ TARGET_SCREEN_WIDTH := 1440
 # Inherit some common ionOS stuff.
 $(call inherit-product, vendor/ion/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
 ION_BUILD_TYPE := OFFICIAL
 ION_RELEASE_TYPE := Release
