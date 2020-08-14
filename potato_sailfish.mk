@@ -2,16 +2,11 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common ionOS stuff.
-$(call inherit-product, vendor/ion/config/common_full_phone.mk)
+# Inherit some common Potato stuff.
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-ION_BUILD_TYPE := OFFICIAL
-ION_RELEASE_TYPE := Release
-
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.ion.maintainer = "DarkPlayer"
 
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_sailfish.mk)
@@ -19,7 +14,7 @@ $(call inherit-product, device/google/marlin/aosp_sailfish.mk)
 -include device/google/marlin/sailfish/device-lineage.mk
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := ion_sailfish
+PRODUCT_NAME := potato_sailfish
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel
 TARGET_MANUFACTURER := Google
