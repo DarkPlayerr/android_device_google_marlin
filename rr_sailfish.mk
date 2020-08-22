@@ -8,6 +8,9 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_sailfish.mk)
 
+# Inherit PixelGApps if exists
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
 -include device/google/marlin/sailfish/device-lineage.mk
 
 ## Device identifier. This must come after all inclusions
