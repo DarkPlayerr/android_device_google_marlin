@@ -8,8 +8,8 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_sailfish.mk)
 
-# Inherit PixelGApps if exists
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+## PixelExperience Gapps
+TARGET_GAPPS_ARCH := arm64
 
 -include device/google/marlin/sailfish/device-lineage.mk
 
