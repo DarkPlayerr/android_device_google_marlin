@@ -507,4 +507,10 @@
 
 <!-- Whether the device supports Smart Pixels -->
 <bool name="config_enableSmartPixels">true</bool>
+
+<!-- If device supports battery health options -->
+<bool name="config_supportBatteryHealth">true</bool>
+<string name="config_batChargeCycle">/sys/class/power_supply/bms/charge_counter</string>
+<string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
+<string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
 </resources>
