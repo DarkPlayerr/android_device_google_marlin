@@ -18,7 +18,7 @@ vendor/app/embms/oem/verizon_config_params.txt
 vendor/bin/adsprpcd
 vendor/bin/ATFWD-daemon
 vendor/bin/athdiag
-vendor/bin/cnd
+vendor/bin/cnd|ec80de715f656806824f8e203f51665537bf255a
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
 vendor/bin/diag_callback_sample
@@ -280,8 +280,8 @@ vendor/lib64/libc2d30-a4xx.so
 vendor/lib64/libc2d30-a5xx.so
 vendor/lib64/libc2d30_bltlib.so
 vendor/lib64/libCB.so
-vendor/lib64/libcneapiclient.so
-vendor/lib64/libcne.so
+vendor/lib64/libcneapiclient.so|ca796f03cbbee9550723ffe154152c4f505e3d4e
+vendor/lib64/libcne.so|8123398501ba91ef45868fa38ede9b94890e14cc
 vendor/lib64/libconfigdb.so
 vendor/lib64/libdiag.so
 vendor/lib64/libdisp-aba.so
@@ -392,8 +392,8 @@ vendor/lib64/libthermalioctl.so
 vendor/lib64/libtime_genoff.so
 vendor/lib64/libTimeService.so
 vendor/lib64/libtzdrmgenprov.so
-vendor/lib64/libwms.so
-vendor/lib64/libwvhidl.so
+vendor/lib64/libwms.so|947365cd9865fa56f9384691f03dd0fb13c58d1b
+vendor/lib64/libwvhidl.so|c959832924461af793fcf6759c82cb47fa60e92f
 vendor/lib64/libxml.so
 vendor/lib/dsp/EtsiEaacPlusEncAndCmnModule.so.1
 vendor/lib/dsp/fastrpc_shell_0
@@ -466,8 +466,8 @@ vendor/lib/libchromatix_imx378_video_hfr_60_isp.so
 vendor/lib/libchromatix_imx378_zsl_snapshot_3a.so
 vendor/lib/libchromatix_imx378_zsl_snapshot_cpp.so
 vendor/lib/libchromatix_imx378_zsl_snapshot_isp.so
-vendor/lib/libcneapiclient.so
-vendor/lib/libcne.so
+vendor/lib/libcneapiclient.so|1b0df4cfd09d0137fb5127af27dd78603e26a21e
+vendor/lib/libcne.so|15232c3b44e1fa31604d5c72dce6cbf0d3c07da7
 vendor/lib/libconfigdb.so
 vendor/lib/libcppf.so
 vendor/lib/libdiag.so
@@ -657,8 +657,8 @@ vendor/lib/libtime_genoff.so
 vendor/lib/libTimeService.so
 vendor/lib/libtm_interface.so
 vendor/lib/libtzdrmgenprov.so
-vendor/lib/libwms.so
-vendor/lib/libwvhidl.so
+vendor/lib/libwms.so|a0748d42d32724fc85cb7e7bde3762add253dcae
+vendor/lib/libwvhidl.so|8f839d161b6c49d43b7b45f07cef9fe91825427c
 vendor/lib/libxml.so
 vendor/lib/rfsa/adsp/chre_drv_loc.so
 vendor/lib/rfsa/adsp/chre_drv_modem.so
