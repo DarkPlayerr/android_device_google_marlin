@@ -11,3 +11,6 @@ TARGET_KERNEL_CONFIG := lineageos_marlin_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/marlin
 
 BUILD_BROKEN_DUP_RULES := true
+
+# Wi-Fi
+WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
