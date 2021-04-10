@@ -18,12 +18,6 @@ PRODUCT_MODEL := Pixel
 TARGET_MANUFACTURER := Google
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=sailfish \
-    PRIVATE_BUILD_DESC="sailfish-user 10 QP1A.191005.007.A3 5972272 release-keys"
-
-BUILD_FINGERPRINT := google/sailfish/sailfish:10/QP1A.191005.007.A3/5972272:user/release-keys
-
 $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
 
 # Pixel 5 props, to pass CTS
